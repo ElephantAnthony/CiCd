@@ -5,7 +5,7 @@ const port = 3002;
 const apiRouter = express.Router();
 
 apiRouter.get('/', (req, res) => {
-	res.json({ message: 'Hello, world!'});
+	res.json({ message: 'Hi!'});
 });
 
 app.use('/myweb/api/v1', apiRouter);
